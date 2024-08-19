@@ -17,7 +17,7 @@ func bubbleSort(array []int, len int) []int {
 }
 
 func main() {
-	array := [11]int{10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0}
+	array := [11]int{0, 4, 7, 1, 2, 6, 9, 3, 8, 5, 10}
 
 	sortedArray := bubbleSort(array[:], 11)
 
